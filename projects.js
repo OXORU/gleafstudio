@@ -51,15 +51,14 @@ window.PROJECTS = [
     cover: "images/atelier/cover.png",
     images: ["images/atelier/01.png", "images/atelier/02.png"]
   },
-     {
+  {
     id: "musee",
     title: "Musée Niki de Saint Phalle",
     year: "2024",
-    type: "Equipement Culturel",
+    type: "Équipement culturel",
     place: "Paris 75006, Parc du Luxembourg",
     text: "Présentation du projet.",
-    cover: "images/atelier/cover.png",
-    images: ["images/atelier/01.png", "images/atelier/02.png"]
+    cover: "images/musee/cover.png",
+    images: ["images/musee/01.png", "images/musee/02.png"]
   }
-];
 ];
