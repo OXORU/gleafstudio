@@ -21,14 +21,14 @@ window.PROJECTS = [
     title: "Centre aquatique",
     year: "2026",
     type: "Équipement sportif",
-    place: "Paris",
+    place: "Ivry, Zac Ivry-Confluence",
     text: "Deux ou trois phrases : le site, l'intention, la structure, ce qui rend le projet singulier.",
-    cover: "images/centre-aquatique/cover.jpg",
+    cover: "images/centre-aquatique/cover.png",
     images: [
-      "images/centre-aquatique/01.jpg",
-      "images/centre-aquatique/02.jpg",
-      "images/centre-aquatique/03.jpg",
-      "images/centre-aquatique/04.jpg"
+      "images/centre-aquatique/01.png",
+      "images/centre-aquatique/02.png",
+      "images/centre-aquatique/03.png",
+      "images/centre-aquatique/04.png"
     ]
   },
   {
@@ -38,8 +38,8 @@ window.PROJECTS = [
     type: "Équipement petite enfance",
     place: "Paris",
     text: "Présentation du projet.",
-    cover: "images/creche/cover.jpg",
-    images: ["images/creche/01.jpg", "images/creche/02.jpg", "images/creche/03.jpg"]
+    cover: "images/creche/cover.png",
+    images: ["images/creche/01.png", "images/creche/02.png", "images/creche/03.png"]
   },
   {
     id: "atelier",
@@ -48,7 +48,7 @@ window.PROJECTS = [
     type: "Réhabilitation",
     place: "Paris",
     text: "Présentation du projet.",
-    cover: "images/atelier/cover.jpg",
-    images: ["images/atelier/01.jpg", "images/atelier/02.jpg"]
+    cover: "images/atelier/cover.png",
+    images: ["images/atelier/01.png", "images/atelier/02.png"]
   }
 ];
