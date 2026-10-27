@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mathis, portfolio d'architecture</title>
+<meta name="description" content="Portfolio d'architecture de Mathis, étudiant à Paris.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bar">
+  <a href="#top">Mathis</a>
+  <nav><a href="#projets">Projets</a><a href="#apropos">À propos</a><a href="#contact">Contact</a></nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <svg class="draw" viewBox="0 0 1200 300" preserveAspectRatio="xMinYMax meet" aria-hidden="true">
+      <path pathLength="1" style="--i:0" d="M0 290H1200"/>
+      <path pathLength="1" style="--i:1" d="M60 290V200H300V110H520V290"/>
+      <path pathLength="1" style="--i:2" d="M520 230H800V290"/>
+      <path pathLength="1" style="--i:3" d="M800 290V50H1010V290"/>
+      <path pathLength="1" style="--i:4" d="M1010 170H1140V290"/>
+      <path pathLength="1" style="--i:5" d="M110 230H250M110 255H250M560 255H770"/>
+      <path pathLength="1" style="--i:6" d="M350 150V250M400 150V250M450 150V250M500 150V250"/>
+      <path pathLength="1" style="--i:7" d="M850 90V250M900 90V250M950 90V250"/>
+      <path pathLength="1" style="--i:8" d="M1010 170L1140 290"/>
+    </svg>
+    <h1 aria-label="Mathis"><span style="--i:0">M</span><span style="--i:1">a</span><span style="--i:2">t</span><span style="--i:3">h</span><span style="--i:4">i</span><span style="--i:5">s</span></h1>
+    <div class="lead">
+      <p>Étudiant en architecture à Paris.<br>Projets d'atelier et de recherche.</p>
+      <a class="ul" href="#projets">Voir les projets</a>
+    </div>
+  </section>
+
+  <section id="projets">
+    <h2>Projets</h2>
+    <ul class="list"></ul>
+  </section>
+
+  <section id="apropos" class="about">
+    <h2>À propos</h2>
+    <p>Remplace ce texte par une présentation courte : ta formation, ce qui guide ta façon de concevoir, ce que tu cherches (stage, école, atelier).</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <a class="mail ul" href="mailto:prenom.nom@mail.fr">prenom.nom@mail.fr</a>
+    <p class="links"><a class="ul" href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a><a class="ul" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></p>
+  </section>
+</main>
+
+<footer><span>Mathis</span><span id="yr"></span></footer>
+
+<div class="preview" aria-hidden="true"></div>
+
+<article class="proj" aria-label="Projet">
+  <button class="close" type="button">Fermer</button>
+  <div class="pi"></div>
+</article>
+
+<script src="projects.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
