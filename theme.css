@@ -1,0 +1,11 @@
+/* Mode sombre : on inverse simplement les variables de couleur de style.css */
+:root[data-theme="dark"]{--w:#000;--b:#fff;--g:#9a9a9a;--l:#2b2b2b;color-scheme:dark}
+body,.proj{transition:background-color .4s,color .4s}
+.missing{background:repeating-linear-gradient(135deg,var(--w) 0 9px,var(--l) 9px 10px)}
+
+/* Interrupteur dans la barre du haut */
+.bar nav{align-items:center}
+.theme{pointer-events:auto;position:relative;flex:none;width:42px;height:22px;border:1.5px solid currentColor;border-radius:22px}
+.theme::after{content:"";position:absolute;top:50%;left:3px;width:13px;height:13px;margin-top:-6.5px;border-radius:50%;background:currentColor;transition:transform .35s var(--ease)}
+.theme[aria-checked="true"]::after{transform:translateX(20px)}
+@media (max-width:700px){.bar nav{gap:16px}}
