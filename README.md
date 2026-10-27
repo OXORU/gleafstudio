@@ -13,3 +13,10 @@
 ## Ajouter un nouveau projet
 1. Crée le dossier `images/mon-projet/` et mets-y `cover.jpg` et tes images.
 2. Dans `projects.js`, copie un bloc de projet, change `id`, `title`, `year`, `type`, `place`, `text`, `cover` et `images`.
+
+## Domaine personnalisé (gleafstudio.com)
+Crée un fichier `CNAME` à la racine contenant ton domaine (uniquement une fois le domaine acheté et le DNS configuré). Chez ton registrar (là où tu as acheté le domaine), crée ces enregistrements DNS :
+- 4 enregistrements A, nom `@` : 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153
+- 4 enregistrements AAAA (facultatif, IPv6), nom `@` : 2606:50c0:8000::153, 2606:50c0:8001::153, 2606:50c0:8002::153, 2606:50c0:8003::153
+- 1 enregistrement CNAME, nom `www`, valeur : TON-PSEUDO.github.io (sans le nom du dépôt)
+Puis dans Settings, Pages : Custom domain = gleafstudio.com, Save, et coche Enforce HTTPS quand l'option apparaît.
