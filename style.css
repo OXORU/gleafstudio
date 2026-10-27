@@ -13,7 +13,7 @@ ul{list-style:none}
 /* Barre : texte blanc en mode "difference" => noir sur blanc, blanc sur image sombre */
 .bar{position:fixed;top:0;left:0;right:0;z-index:30;display:flex;justify-content:space-between;padding:20px var(--p);color:#fff;mix-blend-mode:difference;pointer-events:none}
 .bar a{pointer-events:auto}
-.logo img{display:block;width:auto;height:30px;filter:invert(1)}
+.logo img{display:block;width:auto;height:80px;filter:invert(1)}
 .bar nav{display:flex;gap:28px}
 
 section{padding:clamp(72px,12vw,160px) var(--p)}
